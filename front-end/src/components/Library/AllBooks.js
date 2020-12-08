@@ -5,7 +5,15 @@ import BookLists from "./BookLists";
 
 const AllBooks = () => {
   const [categories, setCategories] = useState([]);
-  const catName = ["pets", "fiction", "cats"];
+  const catName = [
+    "pets",
+    "fiction",
+    "Social Sciences",
+    "Political Science",
+    "Study Psychology",
+    "Business",
+    "Computers & Technology",
+  ];
 
   const renderList = async () => {
     let result = [];
