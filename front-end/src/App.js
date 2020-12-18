@@ -3,6 +3,7 @@ import "./App.css";
 import Library from "./components/library/Library";
 import Login from "./components/Login";
 import Register from "./components/Register";
+import GroupPage from "./components/group/GroupPage";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Login />
       <Register />
       <Library />
+      <GroupPage />
     </div>
   );
 };
